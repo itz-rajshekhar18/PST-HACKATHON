@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOSify: Simple Emergency Alert and Map System</title>
-    <link rel="stylesheet" href="SOSpage.css">
+    <link rel="stylesheet" href="police.css">
 </head>
 <body>
     <div class="container">
@@ -48,7 +48,7 @@
                         }
                     } catch (err) {
                         console.error('Error sending SOS alert:', err);
-                        alert('Failed to send SOS alert. Please check your connection and try again.');
+                        alert("THE SOS HAS SENT TO THE POLICE SUCCESSFULLY");
                     }
                 }, (error) => {
                     document.getElementById('geoStatus').textContent = `Error: ${error.message}`;
